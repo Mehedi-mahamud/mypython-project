@@ -1,4 +1,4 @@
-'''
+
 marks =int(input("inter your mark:"))
 if marks >= 80 :
     print("GPA is A+")
@@ -88,125 +88,125 @@ word = input("Enter a word:")
 
 print(words[word])
 
-'''
-
-# a1 =int(input("inter a mark 1:"))
-# a2 =int(input("inter a mark 2:"))
-# a3 =int(input("inter a mark 3:"))
-
-# total_prcentange = (a1 + a2 + a3)/3
-
-# if (total_prcentange>40 and a1>=33 and a2>=33 and a3>=33):
-#     print("You are pass",total_prcentange)
-# else:
-#     print("You faild",total_prcentange)
 
 
+a1 =int(input("inter a mark 1:"))
+a2 =int(input("inter a mark 2:"))
+a3 =int(input("inter a mark 3:"))
 
-# n = int(input())
-# i= 1
-# while i <= 10:
-#     print(n,"x =",n*i) 
-#     i +=1
+total_prcentange = (a1 + a2 + a3)/3
 
-
-# num=(2, 4 ,5 ,6 , 7 , 8 ,9 ,10)
-
-# x=int(input())
-# i=0
-# while i<len(num):
-#     if(num[i])==x:
-#         print("found in index",i)
-#         break
-#     else:
-#         print("finding....")
-#     i +=1
-
-# num=[1, 2, 4, 8, 4]
-# idx = 0
-# for i in num:
-#     if (i==4): 
-#        print("number found in index", idx)
-#     idx +=1  
+if (total_prcentange>40 and a1>=33 and a2>=33 and a3>=33):
+    print("You are pass",total_prcentange)
+else:
+    print("You faild",total_prcentange)
 
 
 
-# def table_01(a,b):
-#     sum = a + b
-#     sub = a - b 
-#     mul = a * b
-#     print(sum, sub , mul)
-
-# table_01(4,5)
-# x = 3
+n = int(input())
+i= 1
+while i <= 10:
+    print(n,"x =",n*i) 
+    i +=1
 
 
+num=(2, 4 ,5 ,6 , 7 , 8 ,9 ,10)
 
-# import os 
+x=int(input())
+i=0
+while i<len(num):
+    if(num[i])==x:
+        print("found in index",i)
+        break
+    else:
+        print("finding....")
+    i +=1
 
-# mylist = ['apple', 'banana', 'cherry']
-# mylist.insert(0, 'orange')
-# print(mylist)
-
-# fruits = ['apple', 'banana', 'cherry']
-# newlist = [x for x in fruits if x == 'banana']
-# print(newlist)
-
-
-# # greter number find 
-# a =int(input())
-# b =int(input())
-# c =int(input())
-# def find_number_greter(a, b, c):
-#     if a > b and a > c :
-#         print(f"{a} is the greater number")
-#     elif b > a and b > c :
-#         print(f"{b} is the greater number")
-#     else:
-#         print(f"{c} is the greter number")
-
-# find_number_greter(a, b, c)
-
-
-# #
-# def is_leap(year):
-#     # Check if the year is divisible by 400 (leap yea0:
-#     if year % 400 == 0:
-#         return True
-#     # Check if the year is divisible by 100 but not by 400 (not a leap yea0:
-#     if year % 100 == 0:
-#         return False
-#     # Check if the year is divisible by 4 (leap yea0:
-#     if year % 4 == 0:
-#         return True
-#     # Otherwise, it's not a leap ye0:
-#     return False
-
-# year = int(input())
-# print(is_leap(year))
+num=[1, 2, 4, 8, 4]
+idx = 0
+for i in num:
+    if (i==4): 
+       print("number found in index", idx)
+    idx +=1  
 
 
 
-# def multiplecation_table(n):
-#     for i in range(1,11):
-#         print(f"{n} x {i} = {i*n}")
+def table_01(a,b):
+    sum = a + b
+    sub = a - b 
+    mul = a * b
+    print(sum, sub , mul)
 
-# n=int(input())
-# multiplecation_table(n)
+table_01(4,5)
+x = 3
 
 
-# dict_01 = {1: "mehedi", 2:"dipto"}
-# print(dict_01[1])
 
-# import os 
-# # os.rmdir("new")
+import os 
 
-# import shutil
+mylist = ['apple', 'banana', 'cherry']
+mylist.insert(0, 'orange')
+print(mylist)
 
-# shutil.make_archive("game", "zip", "new")
+fruits = ['apple', 'banana', 'cherry']
+newlist = [x for x in fruits if x == 'banana']
+print(newlist)
 
-# with open("opp.py","w") as f:
-#     f.write()
+
+# greter number find 
+a =int(input())
+b =int(input())
+c =int(input())
+def find_number_greter(a, b, c):
+    if a > b and a > c :
+        print(f"{a} is the greater number")
+    elif b > a and b > c :
+        print(f"{b} is the greater number")
+    else:
+        print(f"{c} is the greter number")
+
+find_number_greter(a, b, c)
+
+
+#
+def is_leap(year):
+    # Check if the year is divisible by 400 (leap yea0:
+    if year % 400 == 0:
+        return True
+    # Check if the year is divisible by 100 but not by 400 (not a leap yea0:
+    if year % 100 == 0:
+        return False
+    # Check if the year is divisible by 4 (leap yea0:
+    if year % 4 == 0:
+        return True
+    # Otherwise, it's not a leap ye0:
+    return False
+
+year = int(input())
+print(is_leap(year))
+
+
+
+def multiplecation_table(n):
+    for i in range(1,11):
+        print(f"{n} x {i} = {i*n}")
+
+n=int(input())
+multiplecation_table(n)
+
+
+dict_01 = {1: "mehedi", 2:"dipto"}
+print(dict_01[1])
+
+import os 
+# os.rmdir("new")
+
+import shutil
+
+shutil.make_archive("game", "zip", "new")
+
+with open("opp.py","w") as f:
+    f.write()
 
 import random
 

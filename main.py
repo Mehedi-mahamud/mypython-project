@@ -229,3 +229,5 @@ game()
 
 
 print("hello world")
+
+print("nothing")
